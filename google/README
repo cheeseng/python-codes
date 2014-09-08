@@ -1,0 +1,4 @@
+A simple code to fetch mail headers from gmail. 
+Enter USERNAME and PASSWORD in code and then run.
+Enter 'python gmail.py -h' for more options.
+For 2 step verification enabled accounts, application specific password is needed.
