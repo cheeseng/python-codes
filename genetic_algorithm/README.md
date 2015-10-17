@@ -10,14 +10,14 @@ inserted as is.
 
 Functions
 ---------
-`init` Initializes library and creates first generation population
-__Parameters__:
-`optimizer_function`: Function which will return weight for chromosome. Takes chromosome as argument
-`chromosome_length`: Chromosome length in bits
-`crossover_probability`: Probability of crossover
-`mutation_probability`: Probability of mutation
-`population_size`: total no. of chromosome in any generation
-`no_of_iterations`: no. of iteration per `iterate` call
+`init` Initializes library and creates first generation population  
+__Parameters__:  
+`optimizer_function`: Function which will return weight for chromosome. Takes chromosome as argument  
+`chromosome_length`: Chromosome length in bits  
+`crossover_probability`: Probability of crossover  
+`mutation_probability`: Probability of mutation  
+`population_size`: total no. of chromosome in any generation  
+`no_of_iterations`: no. of iteration per `iterate` call  
 
 `iterateOnce` As the name suggests, just iterate once, creating next generation
 
@@ -28,6 +28,6 @@ Examples
 Some simple implementations of library are provided
 
 ###expression-finder.py
-Tries to find expression of single digits and arithmetic operators which comes closet
+Tries to find expression of single digits and arithmetic operators which comes closest
 to given target. eg if target is 12, 3\*4, 5\*2+2 are exact matches while 5.2\*2+2
 is a close match
