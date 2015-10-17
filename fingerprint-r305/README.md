@@ -12,4 +12,4 @@ Change that code to dynamically assign id.
 Search
 ------
 In search code, only ids from 0 to 5 are searched. change last four entries 
-(16 bit int) in data list in search function to change it.
+(16 bit int) in `data` list in search function to change it.
